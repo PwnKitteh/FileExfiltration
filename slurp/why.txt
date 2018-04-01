@@ -1,0 +1,3 @@
+THIS FILE IS NOT FROM ANY COPYING OF VICTIM FILES. IT IS HERE SO THAT GITHUB DOES NOT DELETE THE FOLER. 
+
+This is where the victim's files will be copied to. 
