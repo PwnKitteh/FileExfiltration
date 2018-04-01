@@ -6,4 +6,4 @@ Really, the only thing I did was convert the few lines of duckyscript over to ar
 I also modified it so that it copies all pdfs *and* text files. You can add more types of files in `e.cmd`. 
 
 ## How do I use it?
-You image the FileEfiltrate.ino file to an arduino with keyboard compatibility, (I recommend the pro micro for its size, but a leonardo will work as well) and copy the other files to a usb stick. Rename your usb drive to \'\_\', without the quotes. That's it. All that's left is to modify the files a bit, and copy them over to a victim computer
+You image the FileExfiltrate.ino file to an arduino with keyboard compatibility, (I recommend the pro micro for its size, but a leonardo will work as well) and copy the other files to a usb stick. Rename your usb drive to \'\_\', without the quotes. That's it. All that's left is to modify the files a bit, and copy them over to a victim computer
